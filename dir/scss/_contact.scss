@@ -1,0 +1,33 @@
+.contact {
+  padding-bottom: 2rem;
+
+  &__bio-image {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+        to left,
+        rgba($primary-color, 0.6),
+        rgba($primary-color, 0.3)
+      ),
+      url("../img/girl.jpg") center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h2{
+      color:white;
+      font-size: 3rem;
+      margin: 1rem;
+      margin-top: 150px;
+  }
+
+  &_list{
+      font-size: 1.5rem;
+      display: grid;
+      grid-template-rows: 1rf;
+      grid-gap: 1.5rem;
+  }
+}
